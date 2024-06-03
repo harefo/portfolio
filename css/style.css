@@ -73,51 +73,6 @@ nav ul li {
 #openNav,#closeNav {
     display: none;
 }
-@media screen and (max-width:921px) {
-    #openNav,#closeNav{
-        display:block;
-        cursor: pointer;
-        transition:0.7s;
-    }
-    #openNav{
-        margin:3% 5%;
-    }
-    #closeNav {
-        margin: 3% 2%;
-    }
-    
-    nav {
-        position: fixed;
-        z-index: 5;
-        display: block;
-        background-color: rgb(12, 12, 12,0.5);
-        width: 100vw;
-        height: 100vh;
-        margin:0% 100% 0;
-    }
-    nav.active {
-        margin:0;
-        transition:0.7s;
-        
-    }
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        padding: 3% 3%;
-        width: 100%;
-        justify-items: center;
-    }
-    nav ul li {
-        margin: 10%;
-    }
-    
-    section .formations div {
-        width: 80vw;
-        
-     }
-    
-}
 
 /*Section Main */
 main {
@@ -156,7 +111,7 @@ section .formations div {
    display: flex;
    flex-direction: column;
    flex-wrap: nowrap;
-   min-width: 25vw;
+   width: 25vw;
    margin: 1% 2%;
    padding: 2%;
    border: 1px solid rgba(0,0,0,.09);/*
@@ -173,6 +128,7 @@ section .formations div span:first-of-type {
 }
 section .formations div span:nth-child(4) {
     font-style: italic;
+    margin-top: 5%;
     
 }
 
@@ -277,3 +233,54 @@ section .formations div p {
 .button:hover{
     background-color: #265DF2;
 }
+
+
+/* Début Codes version mobiles */
+
+@media screen and (max-width:921px) {
+    #openNav,#closeNav{
+        display:block;
+        cursor: pointer;
+        transition:0.7s;
+    }
+    #openNav{
+        margin:3% 5%;
+    }
+    #closeNav {
+        margin: 3% 2%;
+    }
+    
+    nav {
+        position: fixed;
+        z-index: 5;
+        display: block;
+        background-color: rgb(12, 12, 12,0.5);
+        width: 100vw;
+        height: 100vh;
+        margin:0% 100% 0;
+    }
+    nav.active {
+        margin:0;
+        transition:0.7s;
+        
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        padding: 3% 3%;
+        width: 100%;
+        justify-items: center;
+    }
+    nav ul li {
+        margin: 10%;
+    }
+    
+    section .formations div {
+        width: 80vw;
+        
+     }
+    
+}
+
+/*Fin de codes mobile*/
