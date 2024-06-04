@@ -101,7 +101,6 @@ main h2 {
     display: flex;
     font-family:Tahoma, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.5rem;
-    width: 40vw;
     margin: auto;
     padding: 2%;
     justify-content: center;
@@ -110,7 +109,6 @@ main p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
     width: 100%;
-    text-align: justify;
 }
 
 section .formations {
@@ -164,24 +162,35 @@ section .realisations {
 
 #section2 .realisations{
     display: flex;
+    flex-wrap: wrap;
     
 }
 
 .realisations .realisation-1  {
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-between;
    width: 100vw;
    margin: 1% 2%;
+   box-shadow: 0 0 0 1px rgba(0, 0, 0, .08), 0 1px 20px rgba(5, 18, 37, .24);
+   border-radius: 20px;
+   padding: 2%;
 }
 
 .realisations .realisation-1 .texte {
-    width: 40vw;
+    width: 40%;
+}
+
+.realisations .realisation-1 .texte p {
+    text-align: justify;
+    margin-top: 5%;
 }
 
 .realisations .realisation-1 .texte  button {
     width: 150px;
     height: 40px;
     font-size: 1.2em;
+    margin: 5% 0%;
     cursor: pointer;
     background-color: white !important;
     color: #E1A730;
@@ -197,7 +206,7 @@ section .realisations {
 }
 
 .realisations .realisation-1 .illustrations {
-    width: 50vw;
+    width: 50%;
     box-sizing:border-box;
 }
 .realisations .realisation-1 .illustrations img{
@@ -304,6 +313,8 @@ section .realisations {
 /* Début Codes version mobiles */
 
 @media screen and (max-width:921px) {
+
+/*début partie nav*/
     #openNav,#closeNav{
         display:block;
         cursor: pointer;
@@ -341,11 +352,29 @@ section .realisations {
     nav ul li {
         margin: 10%;
     }
+/*fin partie nav*/
+
+/*début partie formations*/
     
     section .formations div {
         width: 80vw;
         
      }
+/*Fin partie formations$*/
+
+/*début parrtie réalisation*/
+.realisations .realisation-1  {
+    display: flex;
+    flex-direction: column;
+ }
+
+.realisations .realisation-1 .texte {
+    width: 100%;
+ }
+ .realisations .realisation-1 .illustrations {
+    width: 100%;
+ }
+/*Fin partie réalisations*/
     
 }
 
