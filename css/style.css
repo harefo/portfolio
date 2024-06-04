@@ -137,6 +137,39 @@ section .formations div p {
     font-weight: bolder;
 }
 
+/*codes section réalisations*/
+section .realisations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    width: 100Vw;
+}
+
+#section2 .realisations{
+    display: flex;
+    
+}
+
+.realisations .realisation1  {
+   display: flex;
+   justify-content: space-between;
+   width: 100vw;
+   margin: 1% 2%;
+}
+
+.realisations .realisation1 .texte {
+    width: 40vw;
+}
+
+.realisations .realisation1 .illustrations {
+    width: 50vw;
+    box-sizing:border-box;
+}
+.realisations .realisation1 .illustrations img{
+    width: 100%;
+}
 
 
 /*codes cards*/
