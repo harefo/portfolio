@@ -97,6 +97,21 @@ main h1 {
     padding: 2%;
     justify-content: center;
 }
+main h2 {
+    display: flex;
+    font-family:Tahoma, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    width: 40vw;
+    margin: auto;
+    padding: 2%;
+    justify-content: center;
+}
+main p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: justify;
+}
 
 section .formations {
     display: flex;
