@@ -21,6 +21,12 @@ window.addEventListener('resize', function(event) {
 openMenuBtn.addEventListener("click", function(){
     menuSideBar.classList.add("active");
     openMenuBtn.style.display="none";
+    document.getElementById("menu").addEventListener("click", function(){
+        menuSideBar.classList.remove("active");
+        openMenuBtn.style.display="block";
+        this.style.transition="0.5s";
+      
+    })
 })
 
 closeMenuBtn.addEventListener("click",function(){
@@ -29,11 +35,7 @@ closeMenuBtn.addEventListener("click",function(){
 })
 
 /*fermeture de la nav en cas de click sur un élément ou l'espace menu */
-document.getElementById("menu").addEventListener("click", function(){
-    menuSideBar.classList.remove("active");
-    openMenuBtn.style.display="block";
-    this.style.transition="0.5s";
-})
+
 /*Fin du code JS du menu */
 
 
