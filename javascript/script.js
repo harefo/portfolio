@@ -13,7 +13,9 @@ window.addEventListener('resize', function(event) {
     else {
         openMenuBtn.style.display="block";
         closeMenuBtn.style.display="block";
+       
     }
+   
 });
 
 openMenuBtn.addEventListener("click", function(){
@@ -24,6 +26,13 @@ openMenuBtn.addEventListener("click", function(){
 closeMenuBtn.addEventListener("click",function(){
     menuSideBar.classList.remove("active");
     openMenuBtn.style.display="block";
+})
+
+/*fermeture de la nav en cas de click sur un élément ou l'espace menu */
+document.getElementById("menu").addEventListener("click", function(){
+    menuSideBar.classList.remove("active");
+    openMenuBtn.style.display="block";
+    this.style.transition="0.5s";
 })
 /*Fin du code JS du menu */
 
