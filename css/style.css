@@ -107,11 +107,14 @@ main h2 {
     font-size: 1.5rem;
     margin: auto;
     padding: 2%;
-    justify-content: center;
+    justify-content: start;
 }
 main p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
+    width: 100%;
+}
+section{
     width: 100%;
 }
 
@@ -154,7 +157,9 @@ section .formations div p {
     font-weight: bolder;
 }
 
-/*codes section réalisations*/
+/*fin partie formations*/
+
+/*début codes section réalisations*/
 section .realisations {
     display: flex;
     flex-direction: row;
@@ -166,8 +171,7 @@ section .realisations {
 
 #section2 .realisations{
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
 }
 
 .realisations .realisation-1  {
@@ -217,102 +221,63 @@ section .realisations {
     width: 100%;
 }
 
+/*fin partie réalisations*/
 
-/*codes cards*/
-.slide-container {
-    max-width: 1120px;
-    width: 100%;
-    background-color:#333;
-    padding:40px 0;
+/*début partie compétences*/
+#section3 {
+display: flex;
 }
 
-.slide-content{
-    margin:0 40px;
-}
-.card {
-    width: 320px;
-    border-radius: 25px;
-    background-color: #fff;
-}
-
-.image-content,.card-content{
+main #section3 .competences {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 10px 14px;
-    padding: 10px 14px;
 }
-.image-content{
-    position: relative;
-    row-gap: 5px;
-    
+
+main #section3 .competences div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1% 2%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .08), 0 1px 20px rgba(5, 18, 37, .24);
+    padding: 2%;
+    border-radius: 20px;
 }
-.overlay{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
+main #section3 .competences div h2{
     width: 100%;
-    background-color: #4070F4;
-    border-radius: 25px 25px 0 25px ;
-}
-.overlay::before,
-.overlay::after{
-    content:'';
-    position: absolute;
-    right: 0;
-    bottom: -40px;
-    height: 40px;
-    width: 40px;
-    background-color: #4070F4;
-}
-.overlay::after{
-    border-radius: 0 25px 0 0;
-    background-color: #fff;
+    margin: 0%;
 }
 
-.card-image {
-    position: relative;
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    overflow: hidden;
-    background-color: #fff;
-    border:5px solid #fff;
+main #section3 .competences div ul{
+    margin-top: 1% ;
+    margin-left: 2%;
+    width: 15%;
+    padding: 3%;
+    border: 1px solid rgba(0, 0, 0, .09);
 }
 
-.card-image .card-img{
-    width: 100%;
-    height: 100%;
-    object-fit:cover;
-    
-}
-.name {
-    font-size: 18px;
-    font-weight: 500;
-    color: #333;
-}
-.desciption {
-    font-size:14px;
-    color: #707070;
-    text-align: center;
+main #section3 .competences ul h3{
+    font-family: Tahoma, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+    margin-bottom: 2%;
+    font-size: 1.2rem;
 }
 
-.button {
-    border: none;
-    font-size:16px;
-    color: #fff;
-    padding: 8px 16px;
-    background-color: #4070F4;
-    border-radius: 6px;
-    margin: 14px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.button:hover{
-    background-color: #265DF2;
+main #section3 .competences div ul li{
+     list-style:circle;
+     margin-bottom: 1%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/*fin partie compétences*/
 
 /* Début Codes version mobiles */
 
