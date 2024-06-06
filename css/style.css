@@ -458,6 +458,16 @@ main #section3 .competences div.competences-2  div {
     align-items: center;
     width: 40%;
     }
+main #section4 .qualites{
+    display: block;
+   
+}
+main #section4 .qualites div{
+    width: 90%;
+    margin:2% 0%;
+    padding: 5%;
+}
+   
 /*fin partier compétences*/
 }
 
