@@ -96,7 +96,7 @@ main h1 {
     display: flex;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2em;
-    width: 40vw;
+    width: 70vw;
     margin: auto;
     padding: 2%;
     justify-content: center;
@@ -318,15 +318,19 @@ main #section3 .competences div.competences-3 div div img {
     width:100%;
     }
 
-
-
-
-
-
-
-
-
 /*fin partie compétences*/
+
+/*début partie qualités*/
+
+
+main #section4 .qualites{
+    
+} 
+
+
+
+
+/*fin partie qualités*/
 
 /* Début Codes version mobiles */
 
