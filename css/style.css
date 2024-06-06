@@ -255,6 +255,10 @@ main #section3 .competences div ul{
     border: 1px solid rgba(0, 0, 0, .09);
 }
 
+main #section3 .competences div ul:hover{
+    box-shadow: 0 0 0 1px rgba(0,0,0,.08), 0 1px 20px rgba(5,18,37,.24);
+}
+
 main #section3 .competences ul h3{
     font-family: Tahoma, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
     margin-bottom: 2%;
@@ -262,7 +266,7 @@ main #section3 .competences ul h3{
 }
 
 main #section3 .competences div ul li{
-     list-style:circle;
+     list-style-type: circle;
      margin-bottom: 1%;
 }
 
