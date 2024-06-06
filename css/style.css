@@ -322,11 +322,48 @@ main #section3 .competences div.competences-3 div div img {
 
 /*début partie qualités*/
 
-
+main #section4 {
+    display: flex;
+    flex-direction: column;
+}
 main #section4 .qualites{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1% 2%;  
+    padding: 2%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .08), 0 1px 20px rgba(5, 18, 37, .24);
+    border-radius: 20px;
 } 
 
+main #section4 .qualites div{
+    display: block;
+    justify-content: flex-start;
+    width: 28%;
+    border: 1px solid rgba(0, 0, 0, .09);
+    padding: 2%;
+}
+main #section4 .qualites div:hover{
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .08), 0 1px 20px rgba(5, 18, 37, .24);
+}
+main #section4 .qualites div div.img-container{
+    width: 20%;
+    border: none;
+    margin-bottom: 2%;
+}
+main #section4 .qualites div div.img-container img{
+    width: 100%;
+}
+main #section4 .qualites div h3{
+    margin: auto;
+    font-size: 1em;
+    margin-bottom: 2%;
+}
+
+main #section4 .qualites div p{
+    text-align: justify;
+    margin-top: 5%;
+}
 
 
 
