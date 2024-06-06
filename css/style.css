@@ -269,9 +269,52 @@ main #section3 .competences div ul li{
      list-style-type: circle;
      margin-bottom: 1%;
 }
+main #section3 .competences div.competences-2  {
+display: flex;
+flex-direction: row;
+}
+main #section3 .competences div.competences-2  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 12%;
+    }
+main #section3 .competences div.competences-2 div h3 {
+    margin: auto;
+    }
+main #section3 .competences div.competences-2 div .logo-container {
+    width: 30%;
+    box-shadow: none;
+    margin: auto;
+    margin-top: 1%;
+    }
+main #section3 .competences div.competences-2 div div img {
+    width:100%;
+    }
 
 
-
+main #section3 .competences div.competences-3  {
+display: flex;
+flex-direction: row;
+}
+main #section3 .competences div.competences-3  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 12%;
+    }
+main #section3 .competences div.competences-3 div h3 {
+    margin: auto;
+    }
+main #section3 .competences div.competences-3 div .logo-container {
+    width: 30%;
+    box-shadow: none;
+    margin: auto;
+    margin-top: 1%;
+    }
+main #section3 .competences div.competences-3 div div img {
+    width:100%;
+    }
 
 
 
