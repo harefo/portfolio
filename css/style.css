@@ -371,11 +371,6 @@ main #section5 {
     background:linear-gradient(135deg, rgb(30, 54, 83) 0%, rgb(155, 81, 224) 100%);
 }
 
-main .icone-container svg {
-    color: blue;
-    background-color: red;
-}
-
 /* Début Codes version mobiles */
 
 @media screen and (max-width:921px) {
