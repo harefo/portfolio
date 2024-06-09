@@ -368,8 +368,28 @@ main #section4 .qualites div p{
 
 /*Début de la partie contacts*/
 main #section5 {
+    display: block;
+    margin: 1% 2%;
     background:linear-gradient(135deg, rgb(30, 54, 83) 0%, rgb(155, 81, 224) 100%);
 }
+
+main #section5 h1 {
+    display: block;
+    color: white;
+}
+main #section5 .contacts{
+    display: flex;
+    padding: 2%;
+}
+main #section5 .contacts div{
+    width: 30%;
+    display: flex;
+} 
+main #section5 .contacts div {
+    width: 30%;
+    display: flex;
+} 
+
 
 /* Début Codes version mobiles */
 
