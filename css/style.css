@@ -399,6 +399,21 @@ main #section5 .contacts .contact-container .texte{
    margin: 0 2%;
    color: white;
 }
+/*fin de la partie contacts*/
+/*début de la parie footer*/
+footer {
+    display: block;
+    align-content: center;
+    background-color: #000;
+    height: 3vw;
+}
+footer div {
+    color: #fff;
+    font-size: .0.8em;
+    text-justify: center;
+    text-align: center;
+}
+/*fin de la partie footer*/
 
 
 
@@ -524,6 +539,17 @@ main #section5 .contacts .contact-container .texte{
     color: white;
  }
 /*fin de la section contacts*/
+/*début de la parie footer*/
+footer {
+    height: 5vw;
+}
+footer div {
+    color: #fff;
+    font-size: 0.8em;
+    text-justify: center;
+    text-align: center;
+}
+/*fin de la partie footer*/
 }
 
 /*Fin de codes mobile*/
