@@ -188,21 +188,27 @@ section .realisations {
    border-radius: 20px;
    padding: 2%;
 }
-
 .realisations .realisation-1 .texte {
     width: 40%;
 }
-
 .realisations .realisation-1 .texte p {
     text-align: justify;
     margin-top: 5%;
 }
-
+.realisations .realisation-1 .texte ul {
+    list-style: none;
+    margin-top: 4%;
+}
+.realisations .realisation-1 .texte ul li {
+    list-style: none;
+    margin: 2% 0;
+    text-align: justify;
+}
 .realisations .realisation-1 .texte  button {
     width: 150px;
     height: 40px;
     font-size: 1.2em;
-    margin: 5% 0%;
+    margin-top:5%;
     cursor: pointer;
     background-color: white !important;
     color: #E1A730;
@@ -219,7 +225,6 @@ section .realisations {
 
 .realisations .realisation-1 .illustrations {
     width: 50%;
-    box-sizing:border-box;
 }
 .realisations .realisation-1 .illustrations img{
     width: 100%;
