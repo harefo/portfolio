@@ -118,9 +118,10 @@ main h3 {
    
 }
 main p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.2em;
+    font-family:arial, sans-serif;
+    font-size: 1em;
     width: 100%;
+    color: #1e1f21;
 }
 section{
     width: 100%;
@@ -147,16 +148,17 @@ section .formations div:hover {
    box-shadow: 0 0 0 1px rgba(0,0,0,.08), 0 1px 20px rgba(5,18,37,.24);
 }
 section .formations div span:first-of-type {
-    font-size: 1.2rem;
-    margin-bottom: 10%;
+    font-size: 1em;
+    color: #e1a730;
+    margin-bottom: 5%;
 }
 section .formations div span:nth-child(4) {
+    font-size: 1em;
     font-style: italic;
-    margin-top: 5%; 
+    margin-top: 2%; 
 }
 
 section .formations div p {
-    font-size: 1.3em;
     color: #1E3653;
     font-weight: bolder;
 }
@@ -187,11 +189,13 @@ section .realisations {
    box-shadow: 0 0 0 1px rgba(0, 0, 0, .08), 0 1px 20px rgba(5, 18, 37, .24);
    border-radius: 20px;
    padding: 2%;
+   padding-bottom: 1%;
 }
 .realisations .realisation-1 .texte {
     width: 40%;
 }
 .realisations .realisation-1 .texte p {
+    font-family: Arial, sans-serif;
     text-align: justify;
     margin-top: 5%;
 }
@@ -201,8 +205,11 @@ section .realisations {
 }
 .realisations .realisation-1 .texte ul li {
     list-style: none;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
     margin: 2% 0;
     text-align: justify;
+    color: #1e1f21;
 }
 .realisations .realisation-1 .texte  button {
     width: 150px;
@@ -342,6 +349,10 @@ main #section4 .qualites div{
     border: 1px solid rgba(0, 0, 0, .09);
     padding: 2%;
 }
+main #section4 .qualites div div{
+   
+    padding: 0%;
+}
 main #section4 .qualites div:hover{
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .08), 0 1px 20px rgba(5, 18, 37, .24);
 }
@@ -472,6 +483,7 @@ footer div {
 .realisations .realisation-1  {
     display: flex;
     flex-direction: column;
+    padding: 5%;
  }
 
 .realisations .realisation-1 .texte {
@@ -489,7 +501,7 @@ main #section3 .competences div ul{
 }
 main #section3 .competences div ul li{
     list-style-type: circle;
-    margin-left: 5%;
+    margin-left: 12%;
     margin-bottom: 1%;
 }
 
