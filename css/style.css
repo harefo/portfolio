@@ -501,8 +501,29 @@ main #section4 .qualites div{
     margin:2% 0%;
     padding: 5%;
 }
-   
 /*fin partier compétences*/
+/*début de la section contacts */
+main #section5{
+   display: block;
+ }
+ main #section5 .contacts{
+    display: block;
+    justify-content: center;
+  }
+  main #section5 .contacts .contact-container{
+    width: 100%;
+    margin: 2% 0;
+  }
+  main #section5 .contacts .contact-container svg{
+    width: 5vw;
+    height: 5vw;
+  }
+main #section5 .contacts .contact-container .texte{
+    font-size: 1em;
+    margin: 0 2%;
+    color: white;
+ }
+/*fin de la section contacts*/
 }
 
 /*Fin de codes mobile*/
