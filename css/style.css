@@ -96,6 +96,7 @@ main h1 {
     display: flex;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2em;
+    color: #326196;
     width: 70vw;
     margin: auto;
     padding: 2%;
@@ -105,9 +106,16 @@ main h2 {
     display: flex;
     font-family:Tahoma, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.2em;
+    color: #e1a730;
     margin: auto;
     padding: 2%;
     justify-content: start;
+}
+main h3 {
+    margin: auto;
+    font-size: 1em;
+    color: #1E3653;
+   
 }
 main p{
     font-family: 'Times New Roman', Times, serif;
@@ -117,7 +125,6 @@ main p{
 section{
     width: 100%;
 }
-
 section .formations {
     display: flex;
     flex-direction: row;
@@ -126,7 +133,6 @@ section .formations {
     margin: 0;
     width: 100Vw;
 }
-
 section .formations div {
    display: flex;
    flex-direction: column;
@@ -137,23 +143,21 @@ section .formations div {
    border: 1px solid rgba(0,0,0,.09);/*
    box-shadow: 0 0 0 1px rgba(0,0,0,.08), 0 1px 20px rgba(5,18,37,.24);*/
 }
-
 section .formations div:hover {
    box-shadow: 0 0 0 1px rgba(0,0,0,.08), 0 1px 20px rgba(5,18,37,.24);
 }
-
 section .formations div span:first-of-type {
     font-size: 1.2rem;
     margin-bottom: 10%;
 }
 section .formations div span:nth-child(4) {
     font-style: italic;
-    margin-top: 5%;
-    
+    margin-top: 5%; 
 }
 
 section .formations div p {
     font-size: 1.3em;
+    color: #1E3653;
     font-weight: bolder;
 }
 
@@ -279,10 +283,6 @@ main #section3 .competences div.competences-2  div {
     align-items: center;
     width: 12%;
     }
-main #section3 .competences div.competences-2 div h3 {
-    font-size: 1em;
-    margin: auto;
-    }
 main #section3 .competences div.competences-2 div .logo-container {
     width: 30%;
     box-shadow: none;
@@ -292,8 +292,6 @@ main #section3 .competences div.competences-2 div .logo-container {
 main #section3 .competences div.competences-2 div div img {
     width:100%;
     }
-
-
 main #section3 .competences div.competences-3  {
 display: flex;
 flex-direction: row;
@@ -303,10 +301,6 @@ main #section3 .competences div.competences-3  div {
     flex-direction: column;
     align-items: center;
     width: 25%;
-    }
-main #section3 .competences div.competences-3 div h3 {
-    margin: auto;
-    font-size: 1em;
     }
 main #section3 .competences div.competences-3 div .logo-container {
     width: 30%;
@@ -355,8 +349,6 @@ main #section4 .qualites div div.img-container img{
     width: 100%;
 }
 main #section4 .qualites div h3{
-    margin: auto;
-    font-size: 1em;
     margin-bottom: 2%;
 }
 
@@ -404,7 +396,7 @@ main #section5 .contacts .contact-container .texte{
 footer {
     display: block;
     align-content: center;
-    background-color: #000;
+    background-color: #1E3653;
     height: 3vw;
 }
 footer div {
