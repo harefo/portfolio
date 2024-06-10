@@ -341,7 +341,6 @@ main #section4 .qualites{
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .08), 0 1px 20px rgba(5, 18, 37, .24);
     border-radius: 20px;
 } 
-
 main #section4 .qualites div{
     display: block;
     justify-content: flex-start;
@@ -437,10 +436,12 @@ footer div {
         transition:0.7s;
     }
     #openNav{
-        margin:3% 5%;
+        margin-top: 3%;
+        margin-right:5%;
     }
     #closeNav {
         margin: 3% 2%;
+        margin-bottom: 0%;
     }
     
     nav {
@@ -461,12 +462,11 @@ footer div {
         display: flex;
         flex-direction: column;
         position: absolute;
-        padding: 3% 3%;
         width: 100%;
         justify-items: center;
     }
     nav ul li {
-        margin: 10%;
+        margin-bottom: 5%;
         font-size: 2em;
     }
 /*fin partie nav*/
