@@ -369,26 +369,38 @@ main #section4 .qualites div p{
 /*Début de la partie contacts*/
 main #section5 {
     display: block;
-    margin: 1% 2%;
     background:linear-gradient(135deg, rgb(30, 54, 83) 0%, rgb(155, 81, 224) 100%);
 }
-
 main #section5 h1 {
     display: block;
     color: white;
+    width: 50%;
+    text-align: center;
 }
 main #section5 .contacts{
     display: flex;
+    justify-content: space-around;
+    margin: 1% 2%;  
     padding: 2%;
 }
-main #section5 .contacts div{
-    width: 30%;
+main #section5 .contacts .contact-container{
     display: flex;
-} 
-main #section5 .contacts div {
+    justify-content: center;
+    align-items: center;
     width: 30%;
+}
+main #section5 .contacts .contact-container svg{
     display: flex;
-} 
+    width: 2vw;
+    height: 2vw;
+}
+main #section5 .contacts .contact-container .texte{
+   font-size: 1em;
+   margin: 0 2%;
+   color: white;
+}
+
+
 
 
 /* Début Codes version mobiles */
