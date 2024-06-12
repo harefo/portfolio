@@ -34,9 +34,33 @@ closeMenuBtn.addEventListener("click",function(){
     openMenuBtn.style.display="block";
 })
 
-/*fermeture de la nav en cas de click sur un élément ou l'espace menu */
 
 /*Fin du code JS du menu */
+/*Codes apparaissage fluide des sections*/
+document.addEventListener("DOMContentLoaded", () => {
+    const sections = document.querySelectorAll("section,div");
+  
+    const observerOptions = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.1
+    };
+  
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+  
+    sections.forEach(section => {
+      observer.observe(section);
+    });
+  });
+  
+
 
 
 
